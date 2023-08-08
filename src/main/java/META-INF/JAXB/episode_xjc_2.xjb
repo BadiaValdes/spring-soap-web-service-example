@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.08.08 a las 03:14:47 PM EDT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://soap.com/students">
+    <schemaBindings map="false">
+      <package name="com.soap.students"/>
+    </schemaBindings>
+    <bindings scd="tns:GetStudentDetailsRequest">
+      <class ref="com.soap.students.GetStudentDetailsRequest"/>
+    </bindings>
+    <bindings scd="tns:GetStudentDetailsResponse">
+      <class ref="com.soap.students.GetStudentDetailsResponse"/>
+    </bindings>
+    <bindings scd="~tns:StudentDetails">
+      <class ref="com.soap.students.StudentDetails"/>
+    </bindings>
+    <bindings scd="tns:CreateStudent">
+      <class ref="com.soap.students.CreateStudent"/>
+    </bindings>
+    <bindings scd="~tns:StudentCreate">
+      <class ref="com.soap.students.StudentCreate"/>
+    </bindings>
+  </bindings>
+</bindings>
+
