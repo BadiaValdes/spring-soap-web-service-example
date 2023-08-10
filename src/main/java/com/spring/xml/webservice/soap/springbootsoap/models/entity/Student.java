@@ -1,4 +1,4 @@
-package com.spring.xml.webservice.soap.springbootsoap.models;
+package com.spring.xml.webservice.soap.springbootsoap.models.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

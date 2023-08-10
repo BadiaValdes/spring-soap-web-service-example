@@ -1,9 +1,9 @@
 package com.spring.xml.webservice.soap.springbootsoap.repository;
 
-import com.spring.xml.webservice.soap.springbootsoap.models.entity.Student;
+import com.spring.xml.webservice.soap.springbootsoap.models.xml.classroom.ClassRoom;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface StudentRepository extends JpaRepository<Student, String> {
+@Repository()
+public interface ClassRoomRepository extends JpaRepository<ClassRoom, String> {
 }

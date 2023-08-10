@@ -1,10 +1,9 @@
 package com.spring.xml.webservice.soap.springbootsoap.service.impl;
 
-import com.spring.xml.webservice.soap.springbootsoap.models.Student;
+import com.spring.xml.webservice.soap.springbootsoap.models.entity.Student;
 import com.spring.xml.webservice.soap.springbootsoap.repository.StudentRepository;
 import com.spring.xml.webservice.soap.springbootsoap.service.IStudentService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

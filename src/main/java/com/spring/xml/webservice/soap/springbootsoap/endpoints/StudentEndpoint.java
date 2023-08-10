@@ -1,11 +1,10 @@
 package com.spring.xml.webservice.soap.springbootsoap.endpoints;
 
-import com.soap.students.CreateStudent;
 import com.soap.students.CreateStudentDetailsRequest;
 import com.soap.students.GetStudentDetailsResponse;
 import com.soap.students.StudentDetails;
 import com.spring.xml.webservice.soap.springbootsoap.core.constants.Namespaces;
-import com.spring.xml.webservice.soap.springbootsoap.models.Student;
+import com.spring.xml.webservice.soap.springbootsoap.models.entity.Student;
 import com.spring.xml.webservice.soap.springbootsoap.service.IStudentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
