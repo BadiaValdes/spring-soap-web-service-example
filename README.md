@@ -65,6 +65,15 @@ La segunda particularidad es la forma de nombrar las clases. De forma automátic
 </wsdl:operation>
 ```
 
+### Para probar la app
+
+Primer ejecutamos nuestra aplicación mediante el comando `mvn spring-boot:run`. Y una vez que termine de cargar el servidor, utilizamos el siguiente endpoint:
+- localhost:8080/ws
+
+Para comprobar los dos WSDL que tenemos creados en el proyecto, utilizamos los siguientes endpoint:
+- localhost:8080/ws/student.wsdl
+- localhost:8080/ws/classRoom.wsdl
+
 ### Agradecimientos
 
 Si estás viendo esto es porque tuviste dudas de cómo crear un web service mediante Spring Boot. Espero que haya sido de utilidad este pequeño repositorio y si encuentras alguna mejora, no dudes en clonar el repo o enviar las mejoras para integrarlas con el proyecto.
